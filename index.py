@@ -11,7 +11,7 @@ from dotenv import load_dotenv
 load_dotenv()
 now = datetime.datetime.now()
 
-categories = ["Age", "Experience", "Religion", "Knowledge", "Leadership", "Respect", "Science", "Smile", "Society", "Space", "Sports", "Strength", "Success", "Teen", "Technology", "Truth", "Hope"]
+categories = ["Age", "Experience", "Religion", "Romantic", "Relationship", "Knowledge", "Leadership", "Respect", "Science", "Smile", "Society", "Space", "Sports", "Strength", "Success", "Teen", "Technology", "Truth", "Hope"]
 
 
 def main():
