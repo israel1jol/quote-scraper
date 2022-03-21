@@ -20,12 +20,12 @@ def main():
 
 
 def resolve_command(cmd):
-    if(cmd == "-h" or cmd == "help" or cmd == "c"):
+    if(cmd == "-h" or cmd == "help"):
         print("Here are a list of categories")
         for i in range(len(categories)):
             print(categories[i])
-    elif(cmd == "-g" or cmd == "get"):
-        topic = sys.argv[2]
+    elif(cmd == "-g"):
+        topic = sys.argv[-1]
         resolve_category(topic)
 
 def resolve_category(topic):
